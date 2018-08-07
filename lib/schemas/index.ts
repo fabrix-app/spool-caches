@@ -1,0 +1,1 @@
+export { cachesConfig } from './cachesConfig'
