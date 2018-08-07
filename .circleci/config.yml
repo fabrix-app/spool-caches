@@ -31,9 +31,6 @@ jobs:
       - run:
           name: install-npm-wee
           command: npm install
-      - run:
-          name: install-npm-sqlite
-          command: npm install sqlite3@4.0.0
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
