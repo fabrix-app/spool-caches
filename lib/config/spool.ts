@@ -1,7 +1,7 @@
 /**
  * Spool Configuration
  *
- * @see {@link https://fabrix.app/doc/spool/config
+ * @see {@link https://fabrix.app/docs/spool/config
  */
 export const spool = {
   type: 'extension',
