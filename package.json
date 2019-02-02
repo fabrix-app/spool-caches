@@ -1,6 +1,6 @@
 {
   "name": "@fabrix/spool-caches",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Caches - Spool for Fabrix to cache through many different store options",
   "homepage": "https://fabrix.app",
   "author": {
@@ -41,18 +41,18 @@
   ],
   "dependencies": {
     "cache-manager": "^2.4.0",
-    "joi": "^13.4.0"
+    "joi": "^14.3.1"
   },
   "devDependencies": {
-    "@fabrix/fabrix": "^1.5.3",
+    "@fabrix/fabrix": "^1.6.0",
     "@fabrix/lint": "^1.0.0-alpha.3",
     "@types/node": "~10.3.4",
-    "cache-manager-fs": "^1.0.6",
+    "cache-manager-fs": "^1.0.7",
     "mocha": "^5",
-    "nyc": "^12.0.2",
-    "smokesignals": "^2.0.0",
+    "nyc": "^13.1.0",
+    "smokesignals": "^3.0.4",
     "sqlite3": "^4.0.0",
-    "supertest": "^2.0.1",
+    "supertest": "^3.4.2",
     "tslib": "~1.9.0",
     "tslint": "~5.10.0",
     "tslint-microsoft-contrib": "~5.0.3",
@@ -60,7 +60,7 @@
     "typescript": "~2.8.1"
   },
   "peerDependencies": {
-    "@fabrix/fabrix": "^1.5.3"
+    "@fabrix/fabrix": "^1.6.0"
   },
   "engines": {
     "node": ">= 7.6.0 =< 10.0.0",
