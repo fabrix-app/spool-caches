@@ -1,6 +1,6 @@
 {
   "name": "@fabrix/spool-caches",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Caches - Spool for Fabrix to cache through many different store options",
   "homepage": "https://fabrix.app",
   "author": {
