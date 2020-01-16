@@ -64,5 +64,27 @@ describe('api.services.CacheService', () => {
         assert(!result)
       })
     })
+
+    it('should wrap the value from memory store', (done) => {
+      const memory = CacheService.getStore('memory')
+
+      memory.wrap('test', () => {
+        return { hello: 'world' }
+      })
+        .then(result => {
+          assert.deepEqual(result, { hello: 'world'})
+
+          return memory.wrap('test', () => {
+            return { hello: 'not world' }
+          })
+        })
+        .then(result => {
+          assert.deepEqual(result, {hello: 'world'})
+          done()
+        })
+          .catch(err => {
+          done(err)
+        })
+    })
   })
 })

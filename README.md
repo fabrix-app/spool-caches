@@ -9,6 +9,7 @@
 
 :package: Caches Spool
 
+Implements [cache-manager](https://www.npmjs.com/package/cache-manager) as a Fabrix spool
 
 ## Install
 ```sh
