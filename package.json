@@ -48,7 +48,7 @@
     "@fabrix/lint": "^1.0.0-alpha.3",
     "@types/node": "~10.3.4",
     "cache-manager-fs": "^1.0.8",
-    "mocha": "^6",
+    "mocha": "^10",
     "nyc": "^14.1.1",
     "smokesignals": "^3.0.4",
     "sqlite3": "^4.0.0",
